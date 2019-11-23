@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="3" parallel="false">
+	<test name="GmailTest" preserve-order="true">
+		<classes>
+		    <class name="com.gmail.test.DriverHome"/>
+		    <class name="com.gmail.test.GmailLoginClass">
+			  <methods>
+	               <include name="loginTest"/>
+	               <exclude name=""></exclude>
+			  </methods>
+        	</class>
+
+        </classes>
+	</test>
+</suite>

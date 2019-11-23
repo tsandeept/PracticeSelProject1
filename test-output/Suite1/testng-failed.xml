@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="3" name="Failed suite [Suite1]">
+  <test name="GmailTest(failed)">
+    <classes>
+      <class name="com.gmail.test.DriverHome">
+        <methods>
+          <include name="driverInitinalization"/>
+        </methods>
+      </class> <!-- com.gmail.test.DriverHome -->
+      <class name="com.gmail.test.GmailComposeMessage">
+        <methods>
+          <include name="composeMail"/>
+        </methods>
+      </class> <!-- com.gmail.test.GmailComposeMessage -->
+    </classes>
+  </test> <!-- GmailTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
